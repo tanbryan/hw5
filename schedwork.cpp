@@ -62,6 +62,8 @@ bool schedule(
 
     return helper(avail, dailyNeed, maxShifts, sched, work, 0, 0);
 
+}
+
 bool helper(
     const AvailabilityMatrix& avail,
     const size_t dailyNeed,
@@ -110,6 +112,4 @@ bool isValid(vector<Worker_T> temp, Worker_T curr){
 }
 
 
-
-}
 
